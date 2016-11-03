@@ -1,0 +1,19 @@
+---
+title: "Deelnemers"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+
+```{r results='asis', echo=FALSE, message=FALSE}
+library(gsheet)
+library(googleVis)
+URL <- "https://docs.google.com/spreadsheets/d/1Y2QJUQKQm0ztGmteUnT39B_eqBH1GENkILdjHIUYmMk/edit#gid=1295086445"
+tblDeeln <- gsheet2tbl(URL)
+
+Deelnemers <- gvisTable(tblDeeln[c(2:6)], options=list(width='600'))
+plot(Deelnemers)
+```

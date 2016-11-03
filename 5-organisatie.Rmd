@@ -1,0 +1,21 @@
+---
+title: "Organisatie"
+output: html_document
+---
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAfbzoFaFxwmdLDpzlwjku5kCcSgPLb33I" async="" defer="defer" type="text/javascript"></script>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("content.R")
+```
+
+Witek ten Hove<br>
+@: witek.tenhove@han.nl<br>
+M: +31 630179522<br>
+
+Locatie: `r paste0(adres, " (", extra, ")")`
+<a href='https://goo.gl/maps/1dgHpkwo1M92'>Routebeschrijving</a>
+
+```{r Map1, echo=FALSE, results='asis', tidy=FALSE}
+plot(M1)
+```
