@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Programma</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet"
+      href="site_libs/highlight/textmate.css"
+      type="text/css" />
+<script src="site_libs/highlight/highlight.js"></script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Hackathon Smart Industry</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-smile-o"></span>
+     
+    Welkom
+  </a>
+</li>
+<li>
+  <a href="1-program.html">
+    <span class="fa fa-book"></span>
+     
+    Programma
+  </a>
+</li>
+<li>
+  <a href="2-organisatie.html">
+    <span class="fa fa-book"></span>
+     
+    Organisatie
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Programma</h1>
+
+</div>
+
+
+<!-- Table generated in R 3.3.0 by googleVis 0.5.10 package -->
+<!-- Sat Nov  5 21:21:06 2016 -->
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataTableID53c47b4e1a95 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "13:00u",
+"Ontvangst",
+"Receptie FEM Arnhem" 
+],
+[
+ "13:30u",
+"Welkom",
+"Basecamp ABS " 
+],
+[
+ "14:00u",
+"Visioning sessie",
+"A102 / A103 / A301" 
+],
+[
+ "15:15u",
+"Pauze",
+"Basecamp ABS " 
+],
+[
+ "15:30u",
+"Features sessie",
+"A102 / A103 / A301" 
+],
+[
+ "17:00u",
+"Afronding",
+"Basecamp ABS " 
+],
+[
+ "17:15u",
+"Borrel",
+"Basecamp ABS " 
+] 
+];
+data.addColumn('string','Tijd');
+data.addColumn('string','Activiteit');
+data.addColumn('string','Ruimte');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartTableID53c47b4e1a95() {
+var data = gvisDataTableID53c47b4e1a95();
+var options = {};
+options["allowHtml"] = true;
+options["width"] = "600";
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID53c47b4e1a95')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID53c47b4e1a95);
+})();
+function displayChartTableID53c47b4e1a95() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+<!-- jsChart -->
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID53c47b4e1a95"></script>
+<!-- divChart -->
+<div id="TableID53c47b4e1a95" style="width: 600; height: automatic;">
+
+</div>
+<p><br> We zullen in drie groepen gaan werken aan een aantal opdrachten. Het doel van de eerste opdracht (<em>“Visioning”</em>) is de verschillende visies op Smart Industry en de betekenis hiervan voor ons onderwijs te inventariseren.</p>
+<p>Daarna gaan we bespreken welke elementen (<em>“Features”</em>) het onderwijs moet bevatten om effect te hebben en hoe we deze elementen samen kunnen toevoegen. Het resultaat moet een verzameling van concrete afspraken zijn, waarop we het programma van de minor Smart Industry kunnen gaan bouwen. <br></p>
+<div id="sessies" class="section level1 tabset tabset-fade">
+<h1>Sessies</h1>
+<div id="visioning" class="section level2">
+<h2>Visioning</h2>
+<p>In deze sessie willen we onderzoeken welke verwachtingen onze partnerorganisaties hebben van de minor. Welke behoeftes hebben ze op het vlak van Smart Industry en voor welke daarvan biedt de minor een uitkomst? Om hierachter te komen gebruiken we een instrument dat wordt toegepast bij Agile <a href="http://reqtest.com/agile-blog/how-to-build-a-product-vision-box-and-clarify-your-software-goals/">softwareontwikkeling</a>: de <strong>product vision box</strong>.</p>
+<p>Aan de deelnemers wordt gevraagd zich voor te stellen dat de minor een product is dat verpakt zit in een doos en dat de doos moet worden vormgegeven. We gaan de voorkant en de achterkant van de doos ontwerpen.</p>
+<p><br> <img src="images/visioningbox.jpg" width="640px" height="360px" /> <br></p>
+<p>Als hulpmiddel bij het ontwerpen, kunnen volgende vragen worden gesteld:</p>
+<ul>
+<li><strong>Wie?</strong> Voor welke organisaties kan de minor een toegevoegde waarde hebben en in welke termen kan hier het beste over worden gecommuniceerd?</li>
+<li><strong>Wat?</strong> Wat moet de minor bieden aan deze organisaties? Hoe kan de minor helpen doelen op het gebied van Smart Industry te bereiken?</li>
+<li><strong>Wanneer?</strong> Binnen welke termijnen verwacht men dat de minor resultaten oplevert?</li>
+<li><strong>Waar?</strong> Op welke plekken / locaties / momenten vindt interactie plaats tussen de minor en de organisaties?</li>
+<li><strong>Waarom?</strong> Welke andere instrumenten kunnen organisaties inzetten om eerder genoemde doelen te bereiken en in welke mate is de minor een goed alternatief hiervoor?</li>
+</ul>
+<p>We werken met teams van 2-3 personen. Voor het ontwerpen van de doos is 45 minuten gereserveerd. Het ontwerp wordt daarna kort (5 minuten) gepresenteerd aan de overige groepsleden. De moderatoren zullen zich niet mengen in het creatieproces. Ze dienen slechts om opdrachten te verduidelijken, te zorgen dat de sessies vlot verlopen en de gegenereerde informatie te verzamelen.</p>
+<div id="uitleg-visioning-video-518-minuten" class="section level3">
+<h3>Uitleg Visioning (Video 5:18 minuten)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y_-f2CZELrw?start=1349&amp;end=1667" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="features" class="section level2">
+<h2>Features</h2>
+</div>
+<div id="groepsindeling" class="section level2">
+<h2>Groepsindeling</h2>
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr>
+<th colspan="1" style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
+Groep
+</th>
+<th style="border-top: 2px solid grey;; border-bottom: hidden;">
+ 
+</th>
+<th colspan="1" style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
+Moderator
+</th>
+<th style="border-top: 2px solid grey;; border-bottom: hidden;">
+ 
+</th>
+<th colspan="1" style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
+Thema
+</th>
+<th style="border-top: 2px solid grey;; border-bottom: hidden;">
+ 
+</th>
+<th colspan="5" style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
+Deelnemers
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left;">
+1
+</td>
+<td style colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #f2f9ff;">
+Jan Willem
+</td>
+<td style colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left;">
+Business
+</td>
+<td style colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #f2f9ff;">
+QConcepts (Jurian)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left;">
+Oil Support (Bart)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #f2f9ff;">
+Schut Papier (René)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left;">
+Kreanet (Mariël)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #f2f9ff;">
+</td>
+</tr>
+<tr style="background-color: #f2f4f4;">
+<td style="padding-left: .5em; padding-right: .8em; background-color: #f2f4f4; text-align: left;">
+2
+</td>
+<td style="background-color: #f2f4f4;" colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #F2F6F9;">
+Franz
+</td>
+<td style="background-color: #f2f4f4;" colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; background-color: #f2f4f4; text-align: left;">
+Technology
+</td>
+<td style="background-color: #f2f4f4;" colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #F2F6F9;">
+Vink (Wilco)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; background-color: #f2f4f4; text-align: left;">
+Avanade (Jacqueline)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #F2F6F9;">
+HHS (Thijs)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; background-color: #f2f4f4; text-align: left;">
+Assemblagebedrijf Perfect (Peter)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; text-align: left; background-color: #F2F6F9;">
+PLT (Emil)
+</td>
+</tr>
+<tr>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left;">
+3
+</td>
+<td style="border-bottom: 2px solid grey;" colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left; background-color: #f2f9ff;">
+Witek
+</td>
+<td style="border-bottom: 2px solid grey;" colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left;">
+Connection
+</td>
+<td style="border-bottom: 2px solid grey;" colspan="1">
+ 
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left; background-color: #f2f9ff;">
+Saxion (Han)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left;">
+Alliander (Robin)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left; background-color: #f2f9ff;">
+PWF Projectmanagement (Etiënne)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left;">
+Besite (Jurgen)
+</td>
+<td style="padding-left: .5em; padding-right: .8em; border-bottom: 2px solid grey; text-align: left; background-color: #f2f9ff;">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

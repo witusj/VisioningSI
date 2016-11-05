@@ -13,6 +13,14 @@ Witek ten Hove<br>
 @: witek.tenhove@han.nl<br>
 M: +31 630179522<br>
 
+Anne-Marie Haanstra<br>
+@: annemarie.haanstra@han.nl<br>
+M: +31 610823759<br>
+
+Marlous van den Tooren<br>
+@: marlous.vandentooren@han.nl<br>
+M: +31 652416578<br>
+
 Locatie: `r paste0(adres, " (", extra, ")")`
 <a href='https://goo.gl/maps/1dgHpkwo1M92'>Routebeschrijving</a>
 
