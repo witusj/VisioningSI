@@ -3,6 +3,14 @@ title: "Programma"
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("content.R")
+```
+Locatie: `r paste0(adres, " (", extra, ")")`
+<a href='https://goo.gl/maps/1dgHpkwo1M92'>Routebeschrijving</a>
+<br>
+
 ```{r results='asis', echo=FALSE, message=FALSE}
 library(gsheet)
 library(googleVis)
