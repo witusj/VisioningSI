@@ -9,7 +9,7 @@ navbar:
       icon: fa-book
       href: 1-program.html
     - text: "Organisatie"
-      icon: fa-book
+      icon: fa-address-book-o
       href: 2-organisatie.html
 output:
   html_document:
