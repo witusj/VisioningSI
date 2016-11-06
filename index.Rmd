@@ -151,11 +151,13 @@ Uit: [Actieagenda SMART INDUSTRY 2014](http://ec2-52-30-100-113.eu-west-1.comput
 <br>
 
 #### Feature 4: Slim Investeren en Financieren
+> There is no such thing as a free lunch
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I-JgtIiwX4M" frameborder="0" allowfullscreen></iframe>
 <br>
 
 #### Feature 5: Slimme Informatiesystemen
-> Beliefs are true or false. Knowledge is neither. Just as color is neither heavy or light - A. Phillips Griffiths
+> From data to insights
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9IIgH0hNtgk" frameborder="0" allowfullscreen></iframe>
 <br>
@@ -167,5 +169,7 @@ Uit: [Actieagenda SMART INDUSTRY 2014](http://ec2-52-30-100-113.eu-west-1.comput
 <br>
 
 #### Feature 7: Slimme Organisaties
+> Structure for success
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nLjFTHTgEVU?list=PLQjb7PbWSDVatTnWnc880u9m7LX0UHhwC" frameborder="0" allowfullscreen></iframe>
 <br>
