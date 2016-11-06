@@ -60,7 +60,7 @@ Er is een [overzicht](https://docs.google.com/spreadsheets/d/1UqRNnbRLGKblvT59js
 
 Bedenk of het mogelijk is om in samenwerking met partijen die aanwezig zijn activiteiten te ontwikkelen en gezamenlijk aan te bieden. Onder het schema worden een aantal suggesties gedaan voor mogelijke werkvormen. Andere ideeën kunnen aan deze lijst worden toegevoegd.
 
-Vul op het overzicht in op welk moment je welke activiteit wilt verzorgen. **Vergeet niet de naam van je organisatie toe te voegen**. Het kan voorkomen dat een andere organisatie op hetzelfde moment iets wil aanbieden. Voeg in dat geval je eigen aanbod toe onder die van de ander.
+Vul op het overzicht in op welk moment je welke activiteit wilt verzorgen. **Vergeet niet de naam van je organisatie toe te voegen**. Het kan voorkomen dat een andere organisatie op hetzelfde moment iets wil aanbieden. Voeg in dat geval je eigen aanbod toe onder die van de ander (in dezelfde cel).
 <br>
 
 ### Overzicht collegeweken
