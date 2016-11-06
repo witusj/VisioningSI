@@ -53,9 +53,13 @@ We werken met teams van 2-3 personen. Voor het ontwerpen van de doos is 45 minut
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y_-f2CZELrw?start=1349&end=1667" frameborder="0" allowfullscreen></iframe>
 
 ## Features
-
 Iedereen heeft tijdens de vorige sessie over de visie kunnen nadenken en discussiëren en een beeld van wat de uitkomsten moeten zijn. Het doel van deze sessie is om te inventariseren welke activiteiten we samen kunnen opzetten, zodat we naar deze uitkomsten toewerken.
 
+Om een beter beeld te krijgen van de studenten die we bedienen hebben we hebben een aantal van hen gevraagd *User Personas* te ontwikkelen op basis van hun eigen behoeftes en hun inschatting van hun peers. De resultaten zijn verzameld in een presentatie.<br>
+
+<iframe src="https://docs.google.com/presentation/d/1VPP0DKXRF-fPC0-3ik--BTdOo-39_GJDGkg9xXWHI6k/embed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<br>
 Er is een [overzicht](https://docs.google.com/spreadsheets/d/1UqRNnbRLGKblvT59js7NU3g3olrkn-QcBuqpEQg_7GE/edit?usp=sharing) gemaakt van alle collegeweken. Dit overzicht zal zichtbaar zijn op een scherm of kan via eigen devices worden benaderd. Iedereen kan hier direct in werken en zijn aanbod toevoegen.
 
 Bedenk of het mogelijk is om in samenwerking met partijen die aanwezig zijn activiteiten te ontwikkelen en gezamenlijk aan te bieden. Onder het schema worden een aantal suggesties gedaan voor mogelijke werkvormen. Andere ideeën kunnen aan deze lijst worden toegevoegd.
