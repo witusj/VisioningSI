@@ -63,7 +63,7 @@ Vul op het overzicht in op welk moment je welke activiteit wilt verzorgen. **Ver
 <br>
 
 ### User Personas
-Om een beter beeld te krijgen van de studenten die we bedienen hebben we hebben een aantal van hen gevraagd *User Personas* te ontwikkelen op basis van hun eigen behoeftes en hun inschatting van hun peers. De resultaten zijn verzameld in een presentatie.<br>
+Om een beter beeld te krijgen van de studenten die we bedienen hebben we hebben een aantal van hen gevraagd *User Personas* te ontwikkelen op basis van hun eigen behoeftes en hun inschatting van hun peers. De resultaten zijn verzameld in een presentatie en dienen ter inspiratie.<br>
 
 <iframe src="https://docs.google.com/presentation/d/1VPP0DKXRF-fPC0-3ik--BTdOo-39_GJDGkg9xXWHI6k/embed?start=true&loop=true&delayms=5000" frameborder="0" width="800" height="474" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
